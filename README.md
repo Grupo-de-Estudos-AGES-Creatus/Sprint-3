@@ -33,4 +33,4 @@ Bem-vindo(a) à **Sprint 3** do nosso grupo de estudo! Vamos construir uma API p
 
 ## 📺 Vídeos
 
-- https://www.youtube.com/watch?v=-MTSQjw5DrM&t=260s&ab_channel=Fireship
+- https://www.youtube.com/watch?v=-MTSQjw5DrM&t=260s&ab_channel=Fireship# Sprint-3
