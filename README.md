@@ -1,36 +1,85 @@
-# 🎬 Movie Reviews API - Sprint 3 | Backend Basics 🚀
+# Sprint 3 - API de Filmes 🎬🚀
 
-Bem-vindo(a) à **Sprint 3** do nosso grupo de estudo! Vamos construir uma API para avaliações de filmes usando Express JS, Prisma e Neon Database. 
+## Visão Geral
 
----
-
-## 📌 Descrição da Sprint
-**Objetivo:** Criar uma API onde usuários possam:
-- 🎥 Criar, editar e deletar reviews de filmes  
-- 📋 Listar filmes e avaliações  
-- 🔒 Gerenciar autenticação básica (opcional)
+Bem-vindo ao repositório da **Sprint 3** do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de **Backend** utilizando **Express.js**, **Prisma** e **Neon DB**. O objetivo é desenvolver uma API para filmes onde o usuário poderá **criar**, **editar** e **deletar** reviews para um filme. 💡✨
 
 ---
 
-## 🛠 Tecnologias Utilizadas
-- **Express JS** 🟢
-- **Prisma ORM** 🐘  
-- **Neon Database** ✨  
-- **Node.js** 🟩  
-- **TypeScript** (opcional) 🔷
+## 📚 Materiais e Tutoriais
+
+Aqui você encontrará links e referências para facilitar o aprendizado:
+- **Express.js**: [Tutorial do Express.js](#) 🎥
+- **Prisma**: [Tutorial do Prisma](#) 🎥
+- **Neon DB**: [Documentação do Neon DB](#) 📖
+
+*Obs: Substitua os links pelos URLs corretos conforme necessário.*
 
 ---
 
-## 🎯 Objetivos de Aprendizado
-- [ ] Configurar servidor Express JS básico  
-- [ ] Conectar aplicação ao banco de dados com Prisma  
-- [ ] Criar migrations para as tabelas `Movie` e `Review`  
-- [ ] Implementar CRUD completo de reviews  
-- [ ] Entender conceitos de rotas, middlewares e controllers  
-- [ ] Deploy no Neon Database
+## 🚀 Descrição da Sprint
+
+### Objetivo
+Desenvolver uma API que permita ao usuário:
+- Listar filmes 📜
+- Criar novas reviews 🎯
+- Editar reviews existentes ✏️
+- Deletar reviews indesejadas 🗑️
+
+### Funcionalidades Principais
+- **CRUD** para reviews de filmes
+- Validação de dados com **middlewares**
+- Integração com **Neon DB** utilizando **Prisma**
 
 ---
 
 ## 📺 Vídeos
 
-- https://www.youtube.com/watch?v=-MTSQjw5DrM&t=260s&ab_channel=Fireship# Sprint-3
+- [RESTful APIs in 100 Seconds // Build an API from Scratch with Node.js Express](https://www.youtube.com/watch?v=-MTSQjw5DrM&t=260s&ab_channel=Fireship)
+
+---
+
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Node.js** com **Express.js**
+- **Prisma ORM**
+- **Neon DB**
+- **JavaScript** (ou **TypeScript**, se preferir)
+
+---
+
+## 📝 Instruções para Configuração do Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+3. **Configure as variáveis de ambiente:**
+   - Crie um arquivo `.env` com as configurações do banco de dados e demais chaves.
+4. **Execute as migrations do Prisma:**
+   ```bash
+   npx prisma migrate dev
+   ```
+5. **Inicie o servidor:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🎯 Próximos Passos
+
+- Adicionar testes unitários 🧪
+- Implementar autenticação e autorização 🔒
+- Melhorar a documentação da API 📖
+
+---
+
+Divirta-se codando e bons estudos! 🚀✨
+
+--------------------------------------------------
