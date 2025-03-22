@@ -2,18 +2,17 @@
 
 ## Visão Geral
 
-Bem-vindo ao repositório da **Sprint 3** do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de **Backend** utilizando **Express.js**, **Prisma** e **Neon DB**. O objetivo é desenvolver uma API para filmes onde o usuário poderá **criar**, **editar** e **deletar** reviews para um filme. 💡✨
+Bem-vindo ao repositório da **Sprint 3** do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de **Backend** utilizando **Express.js**, **Prisma** e **SQLite**. O objetivo é desenvolver uma API para filmes onde o usuário poderá **criar**, **editar** e **deletar** reviews para um filme. 💡✨
 
 ---
 
 ## 📚 Materiais e Tutoriais
 
 Aqui você encontrará links e referências para facilitar o aprendizado:
-- **Express.js**: [Tutorial do Express.js](#) 🎥
-- **Prisma**: [Tutorial do Prisma](#) 🎥
-- **Neon DB**: [Documentação do Neon DB](#) 📖
+- **Express.js**: [Tutorial do Express.js](https://expressjs.com/pt-br/) 🎥
+- **Prisma**: [Tutorial do Prisma](https://www.prisma.io/docs) 🎥
+- **SQLite**: [Documentação do SQLite](https://www.sqlite.org/docs.html) 📖
 
-*Obs: Substitua os links pelos URLs corretos conforme necessário.*
 
 ---
 
@@ -29,7 +28,7 @@ Desenvolver uma API que permita ao usuário:
 ### Funcionalidades Principais
 - **CRUD** para reviews de filmes
 - Validação de dados com **middlewares**
-- Integração com **Neon DB** utilizando **Prisma**
+- Integração com **SQLite** utilizando **Prisma**
 
 ---
 
@@ -96,7 +95,7 @@ Código de 3 dígitos que indica o resultado da requisição:
 
 - **Node.js** com **Express.js**
 - **Prisma ORM**
-- **Neon DB**
+- **SQLite** (ou **Postgres**, se preferir)
 - **JavaScript** (ou **TypeScript**, se preferir)
 
 ---
