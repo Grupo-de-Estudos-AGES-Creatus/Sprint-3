@@ -39,6 +39,58 @@ Desenvolver uma API que permita ao usuário:
 
 ---
 
+# Verbos HTTP (Métodos HTTP)  
+Os verbos HTTP definem a ação que um cliente deseja executar em um recurso específico (identificado por uma URL). São essenciais para comunicação web e operações **CRUD** (*Create, Read, Update, Delete*) em APIs RESTful.
+
+---
+
+## Principais Verbos HTTP  
+
+### **GET**  
+- **Função**: Solicitar dados de um recurso (apenas leitura).  
+- **Características**:  
+  - Não altera o estado do servidor.  
+  - Dados enviados via URL (parâmetros de query).  
+  - Cacheável e seguro (sem efeitos colaterais).  
+
+### **POST**  
+- **Função**: Criar um novo recurso ou enviar dados para processamento.  
+- **Características**:  
+  - Modifica o estado do servidor.  
+  - Dados enviados no corpo da requisição (*body*).  
+
+### **PUT**  
+- **Função**: Atualizar **totalmente** um recurso existente.  
+- **Características**:  
+  - Substitui todos os dados do recurso.  
+  - Requer envio de todos os campos, mesmo não alterados.  
+
+### **PATCH**  
+- **Função**: Atualizar **parcialmente** um recurso.  
+- **Características**:  
+  - Modifica apenas os campos especificados.  
+
+### **DELETE**  
+- **Função**: Remover um recurso permanentemente.  
+
+---
+
+## Respostas HTTP  
+O servidor responde com os seguintes componentes:  
+
+### **Status Code**  
+Código de 3 dígitos que indica o resultado da requisição:  
+
+| Categoria          | Exemplos                   | Descrição                          |  
+|---------------------|----------------------------|------------------------------------|  
+| **2xx (Sucesso)**   | `200 OK`, `201 Created`    | Requisição bem-sucedida.           |  
+| **3xx (Redirecionamento)** | `301 Moved Permanently` | Indica redirecionamento de URL.    |  
+| **4xx (Erro do cliente)** | `404 Not Found`, `400 Bad Request` | Erros causados pelo cliente. |  
+| **5xx (Erro do servidor)** | `500 Internal Server Error` | Falhas no lado do servidor.    |  
+
+---
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
