@@ -12,7 +12,7 @@ A partir da API de Filmes, cada filme poderá ter suas informações básicas, c
 
 Aqui você encontrará links e referências para facilitar o aprendizado:
 - **Express.js**: [Tutorial do Express.js](https://expressjs.com/pt-br/) 🎥
-- **Prisma**: [Tutorial do Prisma](https://www.prisma.io/docs) 🎥
+- **Prisma**: [Tutorial do Prisma](https://www.prisma.io/docs/getting-started/quickstart-sqlite) 🎥
 - **SQLite**: [Documentação do SQLite](https://www.sqlite.org/docs.html) 📖
 
 
@@ -104,31 +104,6 @@ Código de 3 dígitos que indica o resultado da requisição:
 - **Prisma ORM**
 - **SQLite** (ou **Postgres**, se preferir)
 - **JavaScript** (ou **TypeScript**, se preferir)
-
----
-
-## 📝 Instruções para Configuração do Projeto
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-3. **Configure as variáveis de ambiente:**
-   - Crie um arquivo `.env` com as configurações do banco de dados e demais chaves.
-4. **Execute as migrations do Prisma:**
-   ```bash
-   npx prisma migrate dev
-   ```
-5. **Inicie o servidor:**
-   ```bash
-   npm run dev
-   ```
-
----
 
 ## 🎯 Próximos Passos
 
